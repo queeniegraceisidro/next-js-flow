@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
+import Button from '@material-ui/core/Button';
+
 import Date from '../components/date'
 import Layout, { siteTitle } from '../components/layout';
 
@@ -26,8 +28,11 @@ const Home = ({ allPostsData }) => {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Hello, I'm Kwen and I'm giving Next.js a try</p>
+        <p>I want to add material-ui to my project</p>
+        <Button variant="contained" color="primary">
+          Click Me
+        </Button>
       </section>
-
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
