@@ -5,6 +5,6 @@ export default function handler(req, res) {
 // NOTE: Do Not Fetch an API Route from getStaticProps or getStaticPaths
 
 export default function handler(req, res) {
-    const email = req.body.email
-    // Then save email to your database, etc...
-  }
+  const email = req.body.email
+  // Then save email to your database, etc...
+}
